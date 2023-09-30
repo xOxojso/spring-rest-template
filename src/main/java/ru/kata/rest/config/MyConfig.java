@@ -9,8 +9,8 @@ import org.springframework.web.client.RestTemplate;
 @ComponentScan("ru.kata.rest")
 public class MyConfig {
 
-//    @Bean
-//    public RestTemplate getRestTemplate() {
-//        return new RestTemplate();
-//    }
+    @Bean
+    public RestTemplate getRestTemplate() {
+        return new RestTemplate();
+    }
 }
